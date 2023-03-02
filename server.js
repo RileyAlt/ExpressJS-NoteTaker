@@ -8,11 +8,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, './public/index.html')));
+app.use(express.static(path.join(__dirname, './public')));
 
-require('./api/routing/apiRoutes.js')(app);
+require('./routing/apiRoutes.js')(app);
 
-require('./api/routing/htmlRoutes.js')(app);
+require('./routing/htmlRoutes.js')(app);
 
 // Listen for connections
 app.listen(PORT, () =>
