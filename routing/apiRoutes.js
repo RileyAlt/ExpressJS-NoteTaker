@@ -12,6 +12,7 @@ module.exports = function (app) {
     });
 
 
+    
     // POST /api/notes
     // { title: "To DO LIST", text: "1. Clean room, 2. Brush hair"}
     app.post('/api/notes', (req, res) => {
