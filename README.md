@@ -23,6 +23,14 @@ What I learn from the project was how to use Node properties to create different
 
 You must Run NPM Install or (NPM I) before starting your testing, to start the testing you must run the command "node server.js" you must have exress version downloaded as well(Alldependant on where you are to run the specific file.)
 
+### Usage
+
+The program runs as follows:
+
+![alt text](./src/start-page.png)
+
+![alt text](./src/running-app.png)
+
 ### Licensing
 
 MIT
