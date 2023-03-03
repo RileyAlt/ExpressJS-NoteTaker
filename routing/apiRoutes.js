@@ -17,6 +17,7 @@ module.exports = function (app) {
     app.post('/api/notes', (req, res) => {
         console.log('User is trying to make a new note!')
 
+        //creating a new note on page plus giving random ID
         const newNote = {
             title: req.body.title,
             text: req.body.text,
